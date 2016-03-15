@@ -1,0 +1,39 @@
+######################################
+# This is unit testing data set
+# prepared by D. Lemire on August 21st, 2007
+#
+# see explanations at the end of the file
+########################
+Price,City,Country,Job
+78,Montreal,Canada,Salesman
+56,Montreal,Canada,Salesman
+71,Paris,France,Policeman
+49,Toronto,Canada,Policeman
+72,Lyon,France,Researcher
+76,Montreal,Canada,Researcher
+8,Paris,France,Dog
+178,Montreal,Canada,Dog
+################
+# suppose we project on Job
+# using city as the similarity measure
+#
+# Salesman -> Montreal,2
+# Policeman -> Paris,1      Toronto,1
+# Researcher -> Montreal,1    Lyon,1
+# Dog Paris,1   Montreal,1
+# 
+#  I first normalize each "vector"
+# Salesman -> Montreal,1
+# Policeman -> Paris,0.7      Toronto,0.7
+# Researcher -> Montreal,0.7    Lyon,0.7
+# Dog  ->  Paris,0.7   Montreal,0.7
+#
+# then I can do scalar products:
+#
+# Salesman,Policeman = 0
+# Salesman,Researcher = 0.7
+# Salesman,Dog = 0.7
+# Policeman, Researcher = 0
+# Policeman, Dog = 0.5
+# Researcher, Dog = 0.5
+########################

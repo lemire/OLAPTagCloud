@@ -1,0 +1,87 @@
+# # cuboidsize tagcloudsize computesimilaritymatrix timeNN   timePWMC10   timePWMC100   timePWMC1000  
+# we test only COSINE 
+# repetition of the run is set at 100
+# processing 'data cube' usincome
+# displaying tags on dimension AAGE
+# Computing similarity on dimension ACLSWKR
+43.0 16.0 0.175 0.011 0.016 0.078 0.72 
+# Computing similarity on dimension ADTIND
+43.0 16.0 0.131 0.0040 0.012 0.077 0.719 
+# Computing similarity on dimension ADTOCC
+43.0 16.0 0.131 0.0050 0.012 0.077 0.715 
+# Computing similarity on dimension AGI
+43.0 16.0 0.133 0.0040 0.011 0.075 0.712 
+# Computing similarity on dimension AHGA
+43.0 16.0 0.127 0.0050 0.011 0.076 0.711 
+# Computing similarity on dimension AHRSPAY
+43.0 16.0 0.14 0.0040 0.012 0.074 0.705 
+# Computing similarity on dimension AHSCOL
+43.0 16.0 0.142 0.0040 0.012 0.075 0.717 
+# Computing similarity on dimension AMARITL
+43.0 16.0 0.155 0.0040 0.012 0.077 0.71 
+# Computing similarity on dimension AMJIND
+43.0 16.0 0.139 0.0050 0.011 0.075 0.722 
+# Computing similarity on dimension AMJOCC
+43.0 16.0 0.134 0.0050 0.011 0.075 0.714 
+# Computing similarity on dimension ARACE
+43.0 16.0 0.137 0.0040 0.012 0.077 0.709 
+# Computing similarity on dimension AREORGN
+43.0 16.0 0.145 0.0040 0.012 0.075 0.71 
+# Computing similarity on dimension ASEX
+43.0 16.0 0.143 0.0040 0.012 0.077 0.711 
+# Computing similarity on dimension AUNMEM
+43.0 16.0 0.14 0.0040 0.011 0.077 0.716 
+# Computing similarity on dimension AUNTYPE
+43.0 16.0 0.144 0.0040 0.011 0.075 0.711 
+# Computing similarity on dimension AWKSTAT
+43.0 16.0 0.13 0.0040 0.012 0.076 0.717 
+# Computing similarity on dimension CAPGAIN
+43.0 16.0 0.128 0.0040 0.012 0.075 0.712 
+# Computing similarity on dimension CAPLOSS
+43.0 16.0 0.129 0.0050 0.011 0.075 0.712 
+# Computing similarity on dimension DIVVAL
+43.0 16.0 0.138 0.0040 0.012 0.076 0.723 
+# Computing similarity on dimension FEDTAX
+43.0 16.0 0.143 0.0050 0.012 0.076 0.716 
+# Computing similarity on dimension FILESTAT
+43.0 16.0 0.143 0.0040 0.012 0.077 0.719 
+# Computing similarity on dimension GRINREG
+43.0 16.0 0.155 0.0040 0.012 0.076 0.72 
+# Computing similarity on dimension GRINST
+43.0 16.0 0.15 0.0040 0.012 0.076 0.718 
+# Computing similarity on dimension HHDFMX
+43.0 16.0 0.219 0.0040 0.011 0.075 0.713 
+# Computing similarity on dimension HHDREL
+43.0 16.0 0.147 0.0050 0.012 0.077 0.71 
+# Computing similarity on dimension MARSUPWT
+43.0 16.0 0.143 0.0050 0.011 0.075 0.717 
+# Computing similarity on dimension MIGMTR1
+43.0 16.0 0.146 0.0050 0.011 0.076 0.71 
+# Computing similarity on dimension MIGMTR3
+43.0 16.0 0.159 0.0040 0.023 0.077 0.722 
+# Computing similarity on dimension MIGMTR4
+43.0 16.0 0.147 0.0050 0.012 0.077 0.715 
+# Computing similarity on dimension MIGSAME
+43.0 16.0 0.126 0.0040 0.011 0.075 0.706 
+# Computing similarity on dimension MIGSUN
+43.0 16.0 0.143 0.0050 0.011 0.075 0.713 
+# Computing similarity on dimension NOEMP
+43.0 16.0 0.141 0.0040 0.012 0.077 0.72 
+# Computing similarity on dimension PARENT
+43.0 16.0 0.141 0.0040 0.012 0.077 0.72 
+# Computing similarity on dimension PEARNVAL
+43.0 16.0 0.137 0.0040 0.012 0.074 0.71 
+# Computing similarity on dimension PEFNTVTY
+43.0 16.0 0.15 0.0050 0.011 0.075 0.714 
+# Computing similarity on dimension PEMNTVTY
+43.0 16.0 0.13 0.0040 0.012 0.077 0.72 
+# Computing similarity on dimension PENATVTY
+43.0 16.0 0.142 0.0050 0.012 0.076 0.714 
+# Computing similarity on dimension PRCITSHP
+43.0 16.0 0.128 0.0040 0.012 0.077 0.719 
+# Computing similarity on dimension PTOTVAL
+43.0 16.0 0.13 0.0050 0.011 0.077 0.718 
+# Computing similarity on dimension SEOTR
+43.0 16.0 0.145 0.0050 0.012 0.076 0.719 
+# Computing similarity on dimension TAXINC
+43.0 16.0 0.136 0.0040 0.012 0.077 0.715 

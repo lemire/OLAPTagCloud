@@ -1,0 +1,160 @@
+body { 
+	background-color:#DCDCDC;
+}
+
+p.cloudarrow {
+	text-align:center;
+}
+
+p.menubar {
+	margin:0px;
+	padding:0px;
+	width:648px;
+	background:#ccc;
+	border: solid 1px #bbb;
+	height:18px;
+}
+
+p.statusbar {
+	margin:0px;
+	padding:0px;
+	color:#aaa;
+}
+
+div.tagcloud{
+	background:#ddd;
+	width:650px;
+	margin:0px;
+	padding:0px;
+}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#6384A3;
+	font-weight: bold;
+	border-color:#6384A3;
+	border-width:0px 0px 1px 0px;
+	border-style:solid;
+	padding-bottom:3px;
+}
+	
+p, ul, ol, a { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	text-align: justify;	
+}
+
+a  { 
+	color:#6384A3;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#CC0000;
+}
+
+img { 
+	border: none;
+}
+
+
+div#main_frame {  
+	width: 650px; 
+	background-color: #E7EEEE;
+	border-color:#FFF;
+	border-style:solid;
+	border-width: 2px;
+}
+
+div#content_frame {
+	width:100%;
+	background-color: #E7EEEE;
+	height:100%;
+}
+
+
+
+span.error, div.error{
+	color:red;
+}
+
+/**
+* Below here is a tag cloud model with only 
+* 10 possible classes. Note however that using
+* inline styles, it is possible to create more
+* variants.
+*/
+span.tag0{
+	font-size: 8pt; 
+	font-weight: 100;
+    color:#668AA8;
+}
+
+span.tag1{
+	font-size: 10pt; 
+	font-weight: 200;
+    color:#668AA8;
+}
+
+span.tag2{
+	font-size: 12pt; 
+	font-weight: 300;
+}
+
+span.tag3{
+	font-size: 14pt; 
+	font-weight: 400;
+    color:#47657B;
+}
+
+span.tag4{
+	font-size: 16pt; 
+	font-weight: 500;
+    color:#E76300;
+}
+
+span.tag5{
+	font-size: 18pt; 
+	font-weight: 600;
+    color:#E76300;
+}
+
+span.tag6{
+	font-size: 20pt; 
+	font-weight: 700;
+    color:#E76300;
+}
+
+span.tag7{
+	font-size: 22pt; 
+	font-weight: 800;
+    color:#E76300;
+}
+
+span.tag8{
+	font-size: 24pt; 
+	font-weight: 900;
+    color:#E76300;
+}
+
+span.tag9{
+	font-size: 32pt; 
+	font-weight: 900;
+    color:#E76300;
+}
+/**
+* end of span models
+*/
+
+.alignright{
+	float: right;
+}
+
+.clear{
+	clear:both;
+	}
+.tipselect,.tipinput{
+	width:190px;
+}

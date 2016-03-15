@@ -1,0 +1,517 @@
+/* nested-table cloud styles, by DL, transplanted by OK */
+div > table {
+        /* we center the master table-layout */
+        margin-left:auto;
+        margin-right:auto;
+        /*text-align:center;*/
+        /* we leave some space on top */
+        margin-top:1cm;
+}
+div.longtext {
+        width:10cm;
+}
+table > tbody > tr  table {
+        /* stretch any subtable to full width 
+        turning this on has the effect of making the cloud
+        appear more evenly distributed. However, it
+        may also move apart tags that you want close.
+        */
+        width:100%;
+
+}
+
+table {
+        /*border-spacing is very important, without it, there
+        will be spurious spaces between rows and this can make
+        the cloud look "clustered"*/
+        border-spacing: 0px;/* part of the CSS spec,
+        but not supported by microsoft*/
+}
+
+table > tbody   tr, table > tbody   td {
+        /* Here, we are basically turning off any margin, border, or padding
+        inside the tag cloud */
+
+        margin: 0cm ;
+        padding:0px ;
+        border-width: 0px;
+
+}
+
+
+table > tbody tr td  span {
+        /* this makes sure no two tags are stuck together.
+        whether we need 1 or 2 pixels is a matter of taste.
+        Note that there is something slightly wrong in Owen's
+        model because it seems not to include spacing between
+        tags*/
+        margin-left:2px!important;/*must be important not to get overwrittent*/
+}
+
+/* end nested table stuff */
+
+body { 
+	background-color:#DCDCDC;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-left:5em;
+	padding-right:5em;
+}
+
+p.cloudarrow {
+	text-align:center;
+	/*margin:0.1em;*/
+	/*padding:0px;*/	
+	/*height:18px;*/
+	/*width:550px;*/
+	/*font-size: 2em;*/
+}
+
+p.menubar {
+	/*width:550px;*/
+	margin:0px;
+	padding:0px;
+	background:#ccc;
+	border: solid 1px #bbb;
+	height:18px;
+}
+
+p.statusbar {
+	margin:0px;
+	padding:0px;
+	/*background:#ccc;*/
+	color:#aaa;
+	/*border: solid 1px #bbb;*/
+	/*height:18px;*/
+}
+
+/*Kamel: why do we need this class*/
+p.menubar a {
+	/*border: solid 1px #aaa;*/
+	/*height:18px;*/
+	
+}
+
+div.tagcloud{
+	background:#ddd;
+	/*width:550px;*/
+	margin:0px;
+	padding:0px;
+}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#6384A3;
+	font-weight: bold;
+	border-color:#6384A3;
+	border-width:0px 0px 1px 0px;
+	border-style:solid;
+	padding-bottom:3px;
+}
+	
+p, ul, ol, a { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	/*color:#000000;*/
+	font-style:normal;
+	text-align: justify;	
+}
+
+td {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-style:normal;
+}
+
+ul > li {
+	/*margin-bottom:20px;*/
+	list-style-image:url(../figures/puce.gif);
+}
+
+input, form { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-style:normal;
+}
+
+div.lineform, div.lineformright{
+	padding-top: 2px;
+	padding-bottom:2px;
+	height: 20px;
+}
+
+div.lineformright {
+	float:right;
+	width:500px;
+}
+
+div.lineformtextarea, div.lineformrighttextarea {
+	padding-top: 2px;
+	padding-bottom:2px;
+	height: 70px;
+}
+
+div.lineformrighttextarea {	
+	float:right;
+	width:500px;
+}
+
+form fieldset {
+	padding: 5px;
+	border: 1px solid #AAAAAA;
+	display: block;
+}
+ 
+form fieldset legend {
+	/*padding: 2px;*/
+	margin-bottom: 5px;
+}
+
+a  { 
+	color:#6384A3;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#CC0000;
+}
+
+img { 
+	border: none;
+}
+
+div#left_head {
+	width:400px;
+	float:left; 
+	height:100px;
+	padding:0px;
+	border-color:#FFF;
+	border-width:0px 0px 0px 0px;
+	border-style:solid;
+	background-image: url(../figures/tagcloudexample.png);
+	background-repeat: no-repeat;
+	background-position:left;
+	vertical-align:middle;
+}
+
+div#head {
+	width:1000px;
+	float:left; 
+	background-color: #A2B4C8;
+	border:2px;
+	border-style:solid;
+	border-color: #FFF;
+	height:100px;
+	padding:0px;
+	vertical-align:middle;
+	text-align:center;
+	background-image:url(../figures/bannerolap.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+div#main_frame {  
+	width: 1000px; 
+	float: left; 
+	background-color: #E7EEEE;
+	border-color:#FFF;
+	border-style:solid;
+	border-width: 2px;
+}
+
+div#content_frame {
+	width:78%;
+	float:right; 
+	background-color: #E7EEEE;
+	height:100%;
+}
+
+
+div#menu_frame {
+	float: left; 
+	width: 200px; 
+	margin: 1em 0em 0em; 
+	padding: 0em 0em 2em;
+}
+
+div#foot_frame{
+	float: left;
+	width: 1000px;
+}
+
+span.menu_item {
+	font-weight:bold;
+	text-align:left;
+	color:#CCCCCC;
+	text-decoration:none;
+	padding-left:5px;
+	font-size:14px;
+	border-color:#FFFFFF;
+	border-width: 0px 0px 1px 0px;
+	width:195px;
+	border-style:solid;
+	float:left;
+	padding-top: 1em;
+	padding-bottom:1px;
+	/*font-variant: small-caps;*/
+	/*text-transform: uppercase;*/
+}
+
+.td_style {
+	width:200px;
+	background-color:#416498;
+	border-color:#FFFFFF;
+	border-width:0px 2px 0px 0px;
+	border-style:solid;
+}
+
+.img_box_left {
+	padding:1em;
+	float:left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-style:normal;
+	text-align:center;
+	width:64px;
+	height:80px;
+	overflow:hidden;
+}
+
+.img_box_right {
+	padding-left:1em;
+	padding-right:1em;
+	float:right;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	font-style:normal;
+	text-align:center;	
+}
+
+.td_head {
+	border-color:#6384A3;
+	border-width: 0px 0px 1px 1px;
+	border-style:solid;
+	height:20px;
+	float:left;
+	background-color:#839DB6;
+	padding-left:5px;
+	color:#FFFFFF;
+	vertical-align:middle;
+	padding-top:3px;
+	padding-bottom:0px;
+}
+
+.td_line {
+	border-color:#FFFFFF;
+	border-width: 0px 0px 1px 0px;
+	border-style:solid;
+}
+
+/**
+* Progress bar style
+**/
+
+div.prog_border {
+	height: 15px;
+	width: 250px;
+	background: #fff;
+	border: 1px solid #000;
+	margin: 0;
+	padding: 0;
+}
+
+div.prog_bar {
+	height: 11px;
+	margin: 2px;
+	padding: 0px;
+	background: #00ff00;
+}
+
+span.text_bar{
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color:#00ff00;
+}
+
+span.error, div.error{
+	color:red;
+}
+
+span.ok{
+	color:green;
+}
+
+#statusbar {
+	color:#ccc;
+	white-space:pre;
+}
+
+/**
+* Below here is a tag cloud model with only 
+* 10 possible classes. Note however that using
+* inline styles, it is possible to create more
+* variants.
+*/
+span.tag0{
+	font-size: 8pt; 
+	font-weight: 100;
+    color:#668AA8;
+}
+
+span.tag1{
+	font-size: 10pt; 
+	font-weight: 200;
+    color:#668AA8;
+}
+
+span.tag2{
+	font-size: 12pt; 
+	font-weight: 300;
+}
+
+span.tag3{
+	font-size: 14pt; 
+	font-weight: 400;
+    color:#47657B;
+}
+
+span.tag4{
+	font-size: 16pt; 
+	font-weight: 500;
+    color:#E76300;
+}
+
+span.tag5{
+	font-size: 18pt; 
+	font-weight: 600;
+    color:#E76300;
+}
+
+span.tag6{
+	font-size: 20pt; 
+	font-weight: 700;
+    color:#E76300;
+}
+
+span.tag7{
+	font-size: 22pt; 
+	font-weight: 800;
+    color:#E76300;
+}
+
+span.tag8{
+	font-size: 24pt; 
+	font-weight: 900;
+    color:#E76300;
+}
+
+span.tag9{
+	font-size: 32pt; 
+	font-weight: 900;
+    color:#E76300;
+}
+/**
+* end of span models
+*/
+
+
+/**
+* Navigation bar style
+**/
+
+div#navigation {
+	width: 100%;
+	margin: 0 auto;
+	height: 200px;
+	border-bottom: 1px solid #AAA;
+	text-align:center;
+}
+
+div#navtitle {
+	/*width: 600px;*/
+	width: 100%;
+	margin: 0 auto;
+	height: 22px;
+	border-bottom: 1px solid #AAA;
+	border-top: 1px solid #AAA;
+	text-align:center;
+}
+
+div#viewtitle, div#nexttitle {
+	float: left;
+	/*width: 200px;*/
+	width: 33%;
+	height: 20px;
+	text-align:left;
+}
+
+div#previoustitle {
+	float: left;
+	width: 34%;
+	height: 20px;
+	text-align:left;
+}
+
+div#view, div#next{
+	float: left;
+	width: 33%;
+	height: 200px;
+	text-align:left;
+	color: #555;
+}
+
+div#previous {
+	float: left;
+	width: 34%;
+	height: 200px;
+	text-align:left;
+	color: #555;
+}
+
+span#currentRec{
+	color:#6384A3;
+	font-weight:bold;
+}
+
+.alt1 {
+	background-color: #DDD;
+	height:20px;
+}
+
+.alt1:hover, .alt2:hover {
+	background-color: #B4CBF5;
+	color:#FF0000;
+}
+
+.alt2 {
+	background-color: #EEE;
+	height:20px;
+}
+
+.alignright{
+	float: right;
+}
+
+
+.celltip{
+	float:left;
+	text-align:center;
+	width:200px;
+}
+
+.rowtip{
+	/*float:left;*/
+	width:600px;
+}
+.clear{
+	clear:both;
+	}
+.tipselect,.tipinput{
+	width:190px;
+}

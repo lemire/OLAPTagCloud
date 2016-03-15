@@ -1,0 +1,39 @@
+# # cuboidsize tagcloudsize computesimilaritymatrix timeNN   timePWMC10   timePWMC100   timePWMC1000  
+# we test only COSINE 
+# repetition of the run is set at 100
+# processing 'data cube' swivel
+# displaying tags on dimension Number
+# Computing similarity on dimension Birthday
+19.0 150.0 7.28 0.833 1.023 2.814 20.814 
+# Computing similarity on dimension CCExpires
+19.0 150.0 7.611 0.831 1.038 2.936 21.998 
+# Computing similarity on dimension CCNumber
+19.0 150.0 7.452 0.812 1.014 2.813 20.849 
+# Computing similarity on dimension CCType
+19.0 150.0 7.925 0.842 1.042 2.901 21.477 
+# Computing similarity on dimension City
+19.0 150.0 7.774 0.826 1.025 2.864 21.226 
+# Computing similarity on dimension Country
+19.0 150.0 8.493 0.821 1.017 2.836 20.817 
+# Computing similarity on dimension EmailAddress
+19.0 150.0 7.405 0.82 1.013 2.819 20.81 
+# Computing similarity on dimension Gender
+19.0 150.0 8.072 0.838 1.043 2.899 21.441 
+# Computing similarity on dimension GivenName
+19.0 150.0 7.43 0.828 1.031 2.872 21.299 
+# Computing similarity on dimension MiddleInitial
+19.0 150.0 7.501 0.85 1.063 2.977 22.133 
+# Computing similarity on dimension MothersMaiden
+19.0 150.0 7.879 0.821 1.02 2.817 20.932 
+# Computing similarity on dimension NationalID
+19.0 150.0 7.948 0.82 1.019 2.814 20.794 
+# Computing similarity on dimension State
+19.0 150.0 7.626 0.836 1.048 2.962 22.084 
+# Computing similarity on dimension StreetAddress
+19.0 150.0 7.602 0.82 1.018 2.81 20.775 
+# Computing similarity on dimension Surname
+19.0 150.0 7.506 0.824 1.021 2.851 20.986 
+# Computing similarity on dimension TelephoneNumber
+19.0 150.0 7.785 0.82 1.022 2.817 20.811 
+# Computing similarity on dimension ZipCode
+19.0 150.0 7.715 0.821 1.009 2.829 20.86 

@@ -1,0 +1,7 @@
+# # simmatrixdensity badness time badnessNN timeNN  badnessPWMC10 timePWMC10  badnessPWMC100 timePWMC100  badnessPWMC1000 timePWMC1000  
+# displaying tags on dimension HHDFMX (detailed household and family stat)
+# Computing similarity on dimension ARACE
+
+Sim simmatrixdensity "No Clustering" time NN timeNN  PWMC10 timePWMC10  PWMC100 timePWMC100  PWMC1000 timePWMC1000
+COSINE 0.9867555555555556 1113688.0 0.0 1102600.0 0.083 1102600.0 0.083 1102600.0 0.09 1102600.0 0.145 
+TANIMOTO 0.9867555555555556 1051722.441177383 0.0 1021191.1162024159 0.068 1021191.1162024159 0.077 1018993.5687606101 0.077 1007256.2378651341 0.138 
